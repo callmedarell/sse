@@ -1,0 +1,148 @@
+#title {
+background-color: rgb(255, 153, 0);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.PlayGame-button{
+    margin: 1% 1% 0% 0%;
+  }
+  .nav-item{
+    padding: 1.5px 1px;
+  }
+  .avatar-image {
+    transform: rotate(10deg);
+    margin: 7% 0% 8% 0%;
+  }
+
+  /*media query ng title*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .avatar-image{
+  border-radius:  100%;
+  transform: rotate(0deg);
+}
+}
+  
+  .New {
+    padding: 10rem 0 10rem 0;
+    margin: 2rem;
+    text-align: center;
+  }
+  .fa-chrome {
+    color: rgb(250, 133, 0);
+    font-size: 3rem;
+  }
+  .fa-costumize {
+    color: rgb(253, 127, 8);
+    font-size: 3rem;
+  }
+  .fa-costumize:hover {
+    color: rgb(46, 46, 46);
+  }
+  .fa-chrome:hover {
+    color: rgb(37, 37, 37);
+  }   
+
+  /* Media Query Features Section  */
+  @media (max-width:1028px){
+    #features {
+      text-align: center;
+    }
+    h3 {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 1.5rem;
+    }
+    p {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 15px;
+    }
+  }
+
+  /*Testimonial Section*/
+    #testimonials{
+      text-align: center ;
+      background-color: rgb(245, 141, 45);
+      color: black;
+          
+      }
+   .carousel-item{
+     padding: 7% 15%;
+   }
+   .testimonial-image{
+     width: 60%;
+     border-radius: 5%;
+     margin: 20px;
+   }
+   
+  /* Media Query Testimonials Section  */
+  @media (max-width:1028px){
+    #testimonials {
+      text-align: center;
+    }
+    h2 {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 1.5rem;
+    }
+    p {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 15px;
+    }
+  }
+
+  /*press Section*/
+  #press{
+    background-color: rgb(240, 132, 32);
+  }
+  .press-logo{
+    width: 12%;
+  }
+  /*Price Section*/
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing-colunm{
+    padding: 3% 2%;
+  }
+
+  /* Media Query Features Section  */
+  @media (max-width:1028px){
+    #pricing {
+      text-align: center;
+    }
+    h5 {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 1.5rem;
+    }
+    p {
+      font-family: 'Libre Bodoni', serif;
+      font-size: 15px;
+    }
+  }
+
+  #cta{
+    text-align: center;
+    background-color: rgb(240, 132, 32); 
+    padding: 10% 20% 5% 20%;
+  }
+
+  .download-button {
+    margin: 5% 3% 5% 0%;
+  }
+
+  #footer{
+    text-align: center;
+  }
